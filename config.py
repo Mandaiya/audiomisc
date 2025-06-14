@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001743709729))
 
 # Get this value from @MissRose_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7425161952))
+OWNER_ID = int(getenv("OWNER_ID", 655594746))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -33,31 +33,31 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY", None) # youtube song api key, get it from https://t.me/RahulTC
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("𝗦𝗩𝗗 ᘜᗩᗰᗴᖇ ᗷOT")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Nikchil/AudifyMusic",
+    "https://github.com/Mandaiya/audiomisc",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GrayBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GrayBotSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SVD_Squad_Gamerz")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/smarhkarts_gAme")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", 22b6125bfe224587b722d6815002db2b)
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", c9c63c6fbf2f467c8bc68624851e9773)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 35))
 
 
 # Telegram audio and video file size limit (in bytes)
@@ -83,21 +83,25 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/7a5bdfcf40189ea450ed0-c1fd755b77e93c2d7a.jpg"
+    "https://files.catbox.moe/gyqwdu.mp4",
+    "https://files.catbox.moe/2knr9u.mp4",
+    "https://files.catbox.moe/v8hpwx.mp4",
+    "https://files.catbox.moe/fltlsc.mp4",
+    "https://files.catbox.moe/03x5js.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png"
+    "PING_IMG_URL", "https://files.catbox.moe/ed0jqu.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/40581c7048b1ee71209a2-3fc027862ecf64213d.jpg"
-STATS_IMG_URL = "https://graph.org/file/cf84606db2e13b5cb19cc-2b375f36e4dcec4055.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/40581c7048b1ee71209a2-3fc027862ecf64213d.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/40581c7048b1ee71209a2-3fc027862ecf64213d.jpg"
-STREAM_IMG_URL = "https://graph.org/file/40581c7048b1ee71209a2-3fc027862ecf64213d.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/40581c7048b1ee71209a2-3fc027862ecf64213d.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/40581c7048b1ee71209a2-3fc027862ecf64213d.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/40581c7048b1ee71209a2-3fc027862ecf64213d.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/40581c7048b1ee71209a2-3fc027862ecf64213d.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/40581c7048b1ee71209a2-3fc027862ecf64213d.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/oa2k89.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/otj3qc.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/1zecsd.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/1zecsd.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/ao2rqx.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ya8or0.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/bzkhj6.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/f72mzh.jpgg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/f72mzh.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/f72mzh.jpg"
 
 
 def time_to_seconds(time):
